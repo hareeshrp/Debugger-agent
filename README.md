@@ -14,7 +14,7 @@ The repo is deliberately kept lean with only three core components:
 - **`tools.py`** — The "Hands." Provides the agent with `subprocess` execution, file I/O, and external notification capabilities.
 - **`sandbox.py`** — The "Environment." The volatile workspace where the agent experiments. **This file is edited and iterated on by the agent.**
 
-##The loop in action
+## The loop in action
 The agent doesn't just suggest code; it verifies its own "Thought Process" by observing the terminal output. Below is a snapshot of the agent successfully navigating through multiple logical and syntax errors to reach a verified state.
 
 ![Teaser](assets/Report.png)
